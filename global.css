@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-rubik: Rubik;
+    --font-roboto: Roboto;
+    --font-rasa: Rasa;
+  
+    /* font sizes */
+    --font-size-5xl: 24px;
+    --font-size-6xl: 25px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-black: #000;
+    --color-gainsboro: #d9d9d9;
+    --color-lightblue: #a5d7e8;
+    --color-gray: #0a2647;
+  
+    /* border radiuses */
+    --br-31xl: 50px;
+  }
+  

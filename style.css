@@ -1,0 +1,146 @@
+/* HEADER */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish", sans-serif;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="card"] {
+    width: 100%;
+  }
+}
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./Screenshot\ 2023-06-23\ 170229.png);
+  background-size: cover;
+  background-position: center;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly; */
+}
+.content {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #fff;
+}
+.content h1 {
+  font-size: 70px;
+  margin-top: 80px;
+}
+.content p {
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
+}
+.product {
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+}
+.product-category {
+  padding: 0 10vw;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  text-transform: capitalize;
+}
+.product-container {
+  padding: 0 10vw;
+  display: grid;
+  column-gap: 30px;
+  row-gap: 20px;
+  grid-template-columns: repeat(3,auto);
+  /* grid-template-rows: 50px 50px 50px 50px; */
+  grid-auto-rows: 50px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+ 
+}
+.product-container::-webkit-scrollbar {
+  display: none;
+}
+/* .product-card {
+
+
+
+ 
+   margin-right: 10px;
+  border-radius: 5px;
+  background-color: #aaaaaa;
+  transition: 0.3s;
+  opacity: 0.6; 
+  cursor:pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}  */
+
+/* .product-image {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+} */
+.product-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.form-inline{
+  position: relative;
+  top: 65%;
+  left: 38%;
+}
+.keywords{
+  display: inline-block;
+}
+/* #a,#b{
+  text-align: center;
+} */
+.product-card:hover{
+  transform: scale(1.03);
+  opacity: 1;
+  border-radius: 20.6px;
+}
+.cmpny-alpha{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 80%;
+  margin-left: 13%;
+  text-align: left;
+  /* margin-left: 50px; */
+}
+.card{
+  border: 1px solid black;
+  background-image: linear-gradient(90deg, #0f0c29 , #302b63, #24243e ); 
+  cursor: pointer; 
+  /* width: 300px;
+  height: 50px;
+  text-align: center; */
+}
+.inside-text{
+  color: #fff;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 500;  
+  position: absolute;
+  top: 15%;
+  left: 40%;
+}
+.xyz{
+  background-image: linear-gradient(180deg, #bdc3c7, #2c3e50);  
+}
+.button{
+  width: 90px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: aqua;
+  border: 1px solid aqua;
+}
